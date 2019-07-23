@@ -70,6 +70,7 @@ function removeFromCart(item) {
   for(let i=0;i<cart.length;i++) {
     if(true) {
       cart.splice(2,1)
+    }
   }
   
   //if it's not in the cart, using initL
