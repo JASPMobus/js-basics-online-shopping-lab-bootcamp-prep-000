@@ -72,6 +72,9 @@ function removeFromCart(item) {
     }
   }
   
+  // pull eveything before item and everything after item together
+  var before = []
+  var after = []
   
 }
 
