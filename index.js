@@ -74,7 +74,7 @@ function removeFromCart(item) {
   
   //if it's not in the cart
   if(index===-1) {
-    return "That item is not in your cart"
+    return "That item is not in your cart."
   }
   
   // else pull eveything before item and everything after item together
