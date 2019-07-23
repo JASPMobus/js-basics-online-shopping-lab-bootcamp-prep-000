@@ -63,22 +63,19 @@ function total() {
 }
 
 function removeFromCart(item) {
-  //grab the index of item
-  var index = -1;
+  //stores length to check if anything was cut out
+  var initL = cart.length
   
   for(let i=0;i<cart.length;i++) {
     if(cart[i].itemName===item) {
-      index = i;
+      cart.prototype.splice(i, 1)
     }
   }
   
   //if it's not in the cart
-  if(index===-1) {
+  if(initL>cart.length) {
     return "That item is not in your cart."
   }
-  
-  // else cut out the item
-  cart.prototype.splice(index, 1)
 }
 
 function placeOrder(cardNumber) {
