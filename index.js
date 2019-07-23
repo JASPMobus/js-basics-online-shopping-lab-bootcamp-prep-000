@@ -68,9 +68,7 @@ function removeFromCart(item) {
   
   //loops through the array to cut out anything that has the given name
   for(let i=0;i<cart.length;i++) {
-    if(cart[i].itemName===item) {
-      cart[i].itemName = "yams"
-    }
+    cart[i].itemName = "yams"
   }
   
   //if it's not in the cart
