@@ -76,6 +76,7 @@ function removeFromCart(item) {
   var before = []
   var after = []
   
+  
 }
 
 function placeOrder(cardNumber) {
