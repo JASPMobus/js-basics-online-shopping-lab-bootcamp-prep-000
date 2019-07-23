@@ -78,7 +78,7 @@ function removeFromCart(item) {
   }
   
   // else cut out the item
-  cart.splice(index, 1)
+  cart.prototype.splice(index, 1)
 }
 
 function placeOrder(cardNumber) {
