@@ -81,7 +81,7 @@ function removeFromCart(item) {
   var before = []
   var after = []
   
-  for(let i=0;i<index;i++) {
+  for(let i=0;i<index-1;i++) {
     before.push(cart[i])
   }
   
