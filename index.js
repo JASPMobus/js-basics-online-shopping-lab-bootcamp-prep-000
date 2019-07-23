@@ -76,6 +76,14 @@ function removeFromCart(item) {
   var before = []
   var after = []
   
+  for(let i=0;i<index;i++) {
+    before.push(cart[i])
+  }
+  
+  for(let i=index+1;i<cart.length;i++) {
+    after.push(cart[i])
+  }
+  
   
 }
 
