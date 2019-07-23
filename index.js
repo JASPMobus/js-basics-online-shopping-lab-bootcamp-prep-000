@@ -77,7 +77,7 @@ function removeFromCart(item) {
     return "That item is not in your cart."
   }
   
-  // else pull eveything before item and everything after item together
+  // else cut out the item
   cart.splice(index, 1)
 }
 
