@@ -24,7 +24,7 @@ function viewCart() {
     return "Your shopping cart is empty."
   }
   
-  //you have something in your cart, then
+  //you have something in your cart
   else {
     var ret = "In your cart, you have"
     
