@@ -63,7 +63,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  //stores length to check if anything was cut out
+  //stores length to check if anything was cut out later
   var initL = cart.length
   
   //loops through the array to cut out anything that has the given name
