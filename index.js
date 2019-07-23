@@ -84,7 +84,7 @@ function removeFromCart(item) {
     after.push(cart[i])
   }
   
-  return [...before, ...after]
+  cart = [...before, ...after]
 }
 
 function placeOrder(cardNumber) {
