@@ -78,18 +78,7 @@ function removeFromCart(item) {
   }
   
   // else pull eveything before item and everything after item together
-  var before = []
-  var after = []
-  
-  for(let i=0;i<index-1;i++) {
-    before.push(cart[i])
-  }
-  
-  for(let i=index+1;i<cart.length;i++) {
-    after.push(cart[i])
-  }
-  
-  cart = [...before, ...after]
+  cart.splice(index, 1)
 }
 
 function placeOrder(cardNumber) {
