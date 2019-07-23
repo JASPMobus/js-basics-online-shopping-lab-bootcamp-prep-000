@@ -73,7 +73,7 @@ function removeFromCart(item) {
     }
   }
   
-  //if it's not in the cart
+  //if it's not in the cart, using initL
   if(initL===cart.length) {
     return "That item is not in your cart."
   }
