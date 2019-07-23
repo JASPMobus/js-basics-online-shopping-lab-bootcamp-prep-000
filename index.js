@@ -63,6 +63,7 @@ function total() {
 }
 
 function removeFromCart(item) {
+  //grab the index of item
   var index = -1;
   
   for(let i=0;i<cart.length;i++) {
